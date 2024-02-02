@@ -14,6 +14,7 @@
 		AC8AF7132B6B1CFE0000922D /* __2_subcansumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AF7122B6B1CFE0000922D /* __2_subcansumTests.swift */; };
 		AC8AF71D2B6B1CFE0000922D /* __2_subcansumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AF71C2B6B1CFE0000922D /* __2_subcansumUITests.swift */; };
 		AC8AF71F2B6B1CFE0000922D /* __2_subcansumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AF71E2B6B1CFE0000922D /* __2_subcansumUITestsLaunchTests.swift */; };
+		AC8AF72C2B6B1E370000922D /* sums123.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AF72B2B6B1E370000922D /* sums123.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		AC8AF7182B6B1CFE0000922D /* 2.2_subcansumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2.2_subcansumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8AF71C2B6B1CFE0000922D /* __2_subcansumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __2_subcansumUITests.swift; sourceTree = "<group>"; };
 		AC8AF71E2B6B1CFE0000922D /* __2_subcansumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __2_subcansumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC8AF72B2B6B1E370000922D /* sums123.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sums123.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				AC8AF7042B6B1CFE0000922D /* Assets.xcassets */,
 				AC8AF7062B6B1CFE0000922D /* __2_subcansum.entitlements */,
 				AC8AF7072B6B1CFE0000922D /* Preview Content */,
+				AC8AF72B2B6B1E370000922D /* sums123.swift */,
 			);
 			path = 2.2_subcansum;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8AF72C2B6B1E370000922D /* sums123.swift in Sources */,
 				AC8AF7032B6B1CFC0000922D /* ContentView.swift in Sources */,
 				AC8AF7012B6B1CFC0000922D /* __2_subcansumApp.swift in Sources */,
 			);

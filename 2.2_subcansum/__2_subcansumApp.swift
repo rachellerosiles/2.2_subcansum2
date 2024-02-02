@@ -12,6 +12,7 @@ struct __2_subcansumApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
         }
     }
 }
