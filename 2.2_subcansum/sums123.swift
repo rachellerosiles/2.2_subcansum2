@@ -12,7 +12,6 @@ import Foundation
     var sum1 = 0.0
     var sum2 = 0.0
     var sum3 = 0.0
-    var N = 0
     
     var sum1Text = ""
     var sum2Text = ""
@@ -20,8 +19,7 @@ import Foundation
     var enableButton = true
     
     
-    func initSums123(setN: Int) -> Bool {
-        N = setN
+    func initSums123() -> Bool {
         
         Task{
             
@@ -73,7 +71,7 @@ import Foundation
         return true
     }
     
-    func getSum1() async -> (Type: String, StringToDisplay: String, Value: Double){
+    func getSum1(N: Int) async -> (Type: String, StringToDisplay: String, Value: Double){
         for n in 1...2*N {
             sum1 = sum1 + pow((-1), Double(n)) * Double(n)/Double(n+1)
         }
@@ -82,7 +80,7 @@ import Foundation
         return (Type: "Summation 1", StringToDisplay: sum1Text, Value: sum1)
     }
     
-    func getSum2() async -> (Type: String, StringToDisplay: String, Value: Double){
+    func getSum2(N: Int) async -> (Type: String, StringToDisplay: String, Value: Double){
         var sum2half1 = 0.0
         var sum2half2 = 0.0
         
@@ -96,7 +94,7 @@ import Foundation
         return (Type: "Summation 2", StringToDisplay: sum2Text, Value: sum2)
     }
     
-    func getSum3() async -> (Type: String, StringToDisplay: String, Value: Double){
+    func getSum3(N: Int) async -> (Type: String, StringToDisplay: String, Value: Double){
         for n in 1...N {
             sum3 = sum3 + 1/Double(2*n*(2*n + 1))
         }
